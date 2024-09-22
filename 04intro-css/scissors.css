@@ -1,0 +1,160 @@
+body 
+{
+    font-family: exo, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0;
+    background-color: #B0B0B0;
+    color:black;
+}
+
+/*Header*/
+header
+{
+    background-color: #E5E4E2;
+    padding: 2.5rem 2vw;
+}
+
+header h1
+{
+    margin: 0;
+    color: #404040;
+    letter-spacing: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header a
+{
+    text-decoration: none;
+    color:inherit;
+    margin:0;
+}
+
+/*Nav*/
+nav
+{
+    background-color: #404040;
+}
+
+nav ul
+{
+    list-style-type:none;
+    letter-spacing: 3px;
+    padding: 0 3vw;
+    margin: 0;
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+}
+
+nav a
+{
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: #E6E4E2;
+    font-weight: 800;
+    padding: .83rem 3.5rem;
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+}
+
+nav a:hover
+{
+    color:#3B6EA8;
+    background-color:#E5E4E2;
+}
+
+/*Main*/
+main
+{
+    padding: 1rem 2vw;
+}
+
+main h1
+{
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    color:#E6E4E2;
+    font-size:40px;
+    font-weight:800;
+}
+
+main h2
+{
+    color: #3B6EA8;
+    margin-bottom: .2rem;
+}
+
+main p
+{
+    color:#000000;
+    margin: 0 0 .3rem 0;
+}
+
+
+main dl dt
+{
+    color: #E6E4E2;
+    font-weight: 700;
+    text-decoration: underline
+}
+
+main dl dd
+{
+    color: #000000;
+    font-size: 0.9rem;
+}
+
+main ul
+{
+    list-style-type:square;
+}
+
+main address
+{
+    font-style: normal;
+    background-color: #E5E4E2;
+    padding: 2rem;
+    width: 20rem;
+    border: 1px solid #000000;
+    border-radius:5px;
+    
+}
+
+main div p
+{
+    display:flex;
+    justify-content: center; 
+    align-items: center;    
+    margin-top: 1.5rem;
+    background-color: #E5E4E2;
+}
+main a
+{
+    color: #000000;
+}
+
+main a:hover
+{
+    color: #3B6EA8;
+}
+
+
+/*Footer*/
+footer
+{
+    background-color: #B0B0B0;
+    text-align:center;
+    color:#ffffff;
+    padding: 1rem 0;
+    font-size: .9rem;
+    text-decoration-line: underline;
+}
+
+footer a
+{
+    color:#024873;
+}

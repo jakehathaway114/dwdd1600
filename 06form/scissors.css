@@ -112,6 +112,12 @@ main address {
     width: 20rem;
     border: 1px solid #000000;
     border-radius: 5px;
+
+}
+
+div.contact-image, div.contact-info
+{
+    margin:1rem;
 }
 
 main div p {
@@ -169,6 +175,61 @@ div.profile img {
 div.profile figcaption {
     text-align: center;
     font-size: 1rem;
+}
+
+.businessForm fieldset
+{
+    margin: 2vw;
+    border:solid #e5e4e2 3px;
+}
+
+.businessForm legend
+{
+    color:black;
+    font-size: 1.3rem;
+}
+.businessForm label 
+{
+    margin: .5rem;
+}
+
+.businessForm label, .businessForm [type=text], .businessForm [type=tel], .businessForm [type=email], .businessForm textarea, .businessForm selector
+{
+    display: block;
+}
+.businessForm textArea
+{
+    border: solid, 1px #404040;
+    height:5rem;
+    width:50vw;
+    font-family: exo, sans-serif;
+    font-weight: 300;
+}
+
+.businessForm [type=text], .businessForm [type=tel], .businessForm [type=email], .businessForm select
+{
+    border: solid, 1px #404040;
+    color:black;
+    padding: .3rem; 
+    width: 300px;
+    border-radius: .3rem;
+    font-family: exo, sans-serif;
+    font-weight: 300;
+}
+
+.businessForm [type=submit]
+{
+    background-color: #3b6ea8;
+    border:dotted;
+    padding: 1.2rem 2rem;
+    border-radius: 20px;
+    color:white;
+    margin: .3rem 0 .8vw 2vw;
+}
+
+.myForm :required
+{
+    background-color: rgba(221, 32, 35, 0.2)
 }
 
 /*Footer*/

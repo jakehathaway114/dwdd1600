@@ -84,6 +84,59 @@
         <!-- Main Section -->
         <main>
             <h1>Contact Us</h1>
+            <h2>Custom Scissor Commission Form</h2>
+            <form method = "get" class="businessForm" action="thanks.html">
+                <fieldset>
+                    <legend>Contact Info</legend>
+                    <label>First Name* <input type="text" name = "first" required></label>
+                    <label>Last Name* <input type="text" name = "last" required></label>
+                    <label>Email* <input type="email" name = "email" required></label>
+                    <label>Phone Number <input type="tel" name = "phone"></label>
+                </fieldset>
+                
+                <fieldset>
+                    <legend>Scissor Commission Details</legend>
+                    <label><input type="radio" name="method" value="utility"> Utility Scissor</label>
+                    <label><input type="radio" name="method" value="culinary"> Culinary Scissor</label>
+                    <label><input type="radio" name="method" value="tailor"> Tailor Scissor</label>
+                    <label><input type="radio" name="method" value="barber"> Barber | Saloon Scissor</label>
+                    <label><input type="radio" name="method" value="medical"> First Aid Scissors (+$20)</label>
+                    <label><input type="radio" name="method" value="heavy"> Heavy Duty Scissor (+$25)</label>
+                    <label><input type="radio" name="method" value="other">Other (Specify in Additional Comments)</label>
+                </fieldset>
+                
+                <fieldset>
+                    <legend>Custom Sheath</legend>
+                    <label>
+                <select name="type">
+                    <option value = "none">None </option>
+                    <option value = "other">Nylon Sheath (+$3) </option>
+                    <option value = "other">Faux Leather Sheath (+$10) </option>
+                    <option value = "other">Genuine Leather Sheath (+$25) </option>
+                    <option value = "other">Engraved Genuine Leather Sheath (+$50) </option>
+                    <option value = "other">Other (Specify in Additional Comments) </option>
+                </select>
+            </label>
+                </fieldset>
+                
+                <fieldset>
+                    <legend>Add-ons</legend>
+                    <label><input type="checkbox" name="name" value="chosen">Name Engravings (+$10)</label>
+                    <label><input type="checkbox" name="Logo" value="chosen">Logo Engravings (+$20)</label>
+                    <label><input type="checkbox" name="color" value="chosen">Custom Color (+$50)</label>
+                    <label><input type="checkbox" name="engravings" value="chosen">Custom Engravings (+$150) </label>
+                    <label><input type="checkbox" name="damascus" value="chosen">Damascus Steel (+$200) </label>
+                </fieldset>
+                
+                <fieldset>
+                    <legend>Other</legend>
+                    <label>Additional Comments: 
+                    <textarea name = "comments"></textarea>
+                    </label>
+                </fieldset>
+                
+                <input type = "submit" value="Submit Delivery Request">
+            </form>
             <!-- Contact Section -->
             <div class="contact-container">
                 <!-- Contact Info -->

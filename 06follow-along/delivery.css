@@ -113,7 +113,7 @@ main a {
     display:block;
 }
 
-.myForm [type=text], .myForm[type=tel], .myForm select, .myForm textarea
+.myForm [type=text], .myForm [type=tel], .myForm select, .myForm textarea
 {
     border: solid, 1px #888;
     padding: .3rem; 

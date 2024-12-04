@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="scissors.css" />
+        <meta name="author" content="Jake Hathaway" />
+        <meta name="publisher" content="Caesorium Emporium" />
+        <meta
+            name="description"
+            content="Caesorium Emporium - High-quality precision scissors for professional and home use." />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" />
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+        
+        <title>Caesorium Emporium</title>
+        <!--Style Section-->
+        <style>
+            hr {
+                border: 0;
+                height: 2px;
+                background-color: #404040;
+                margin: 20px 0;
+            }
+            .contact-container {
+                display: flex;
+                justify-content: space-between;
+                padding-left: 10%;
+                max-width: 1200px;
+                margin: 0 auto;
+            }
+
+            .contact-info {
+                width: 50%;
+            }
+            footer {
+                text-align: center;
+            }
+
+            .contact-image {
+                width: 50%;
+                margin-right: 5%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: #e5e4e2; /* Placeholder background */
+                height: 300px;
+                text-align: center;
+                font-size: 20px;
+                color: #000000;
+                border: solid 1px;
+                border-radius: 5px;
+            }
+
+            address {
+                line-height: 150%;
+                margin: 0 0 10px;
+                font-size: 18px;
+            }
+
+            .hours {
+                margin-top: 50px;
+                font-size: 16px;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Header Section -->
+        <header>
+            <img src="images/icon.png" alt="site logo" width="100" height="60">
+            <h1><a href="index.html">Caesorium Emporium</a></h1>
+            <img src="images/icon.png" alt="site logo" width="100" height="60">
+        </header>
+
+        <!-- Navigation Section -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li class="active"><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <!-- Main Section -->
+        <main>
+            <h1>Contact Us</h1>
+            <h2>Custom Scissor Commission Form</h2>
+            <form method = "get" class="businessForm" action="thanks.html">
+                <fieldset>
+                    <legend>Contact Info</legend>
+                    <label>First Name* <input type="text" name = "first" required></label>
+                    <label>Last Name* <input type="text" name = "last" required></label>
+                    <label>Email* <input type="email" name = "email" required></label>
+                    <label>Phone Number <input type="tel" name = "phone"></label>
+                </fieldset>
+                
+                <fieldset>
+                    <legend>Scissor Commission Details</legend>
+                    <label><input type="radio" name="method" value="utility"> Utility Scissor</label>
+                    <label><input type="radio" name="method" value="culinary"> Culinary Scissor</label>
+                    <label><input type="radio" name="method" value="tailor"> Tailor Scissor</label>
+                    <label><input type="radio" name="method" value="barber"> Barber | Saloon Scissor</label>
+                    <label><input type="radio" name="method" value="medical"> First Aid Scissors (+$20)</label>
+                    <label><input type="radio" name="method" value="heavy"> Heavy Duty Scissor (+$25)</label>
+                    <label><input type="radio" name="method" value="other">Other (Specify in Additional Comments)</label>
+                </fieldset>
+                
+                <fieldset>
+                    <legend>Custom Sheath</legend>
+                    <label>
+                <select name="type">
+                    <option value = "none">None </option>
+                    <option value = "other">Nylon Sheath (+$3) </option>
+                    <option value = "other">Faux Leather Sheath (+$10) </option>
+                    <option value = "other">Genuine Leather Sheath (+$25) </option>
+                    <option value = "other">Engraved Genuine Leather Sheath (+$50) </option>
+                    <option value = "other">Other (Specify in Additional Comments) </option>
+                </select>
+            </label>
+                </fieldset>
+                
+                <fieldset>
+                    <legend>Add-ons</legend>
+                    <label><input type="checkbox" name="name" value="chosen">Name Engravings (+$10)</label>
+                    <label><input type="checkbox" name="Logo" value="chosen">Logo Engravings (+$20)</label>
+                    <label><input type="checkbox" name="color" value="chosen">Custom Color (+$50)</label>
+                    <label><input type="checkbox" name="engravings" value="chosen">Custom Engravings (+$150) </label>
+                    <label><input type="checkbox" name="damascus" value="chosen">Damascus Steel (+$200) </label>
+                </fieldset>
+                
+                <fieldset>
+                    <legend>Other</legend>
+                    <label>Additional Comments: 
+                    <textarea name = "comments"></textarea>
+                    </label>
+                </fieldset>
+                
+                <input type = "submit" value="Submit Delivery Request">
+            </form>
+            <!-- Contact Section -->
+            <div class="contact-container">
+                <!-- Contact Info -->
+                <div class="contact-info">
+                    <address>
+                        <strong>Caesorium Emporium</strong><br />
+                        1234 Craftsmanship Lane<br />
+                        Artisan City, AC 56789<br />
+                        <a href="mailto:info@caesoriumemporium.com">info@caesoriumemporium.com</a><br />
+                        Phone Number: <a href="tel:+1234567890">+1 (234) 567-890</a><br />
+                        <hr />
+                        <p><strong>Hours of Operation:</strong></p>
+                        <p>Monday - Friday: 9:00 AM - 6:00 PM</p>
+                        <p>Saturday: 10:00 AM - 4:00 PM</p>
+                        <p>Sunday: Closed</p>
+                    </address>
+                </div>
+
+                <!-- Map Placeholder -->
+                <div class="contact-image">
+                    <p><a href="https://www.google.com/maps" target="_blank" rel="noopener">Our Location</a></p>
+                </div>
+            </div>
+        </main>
+
+        <br />
+        <!-- Footer Section -->
+        <footer>
+            <p>&copy;2024 Caesorium Emporium &bull; All rights reserved.</p>
+        </footer>
+    </body>
+</html>

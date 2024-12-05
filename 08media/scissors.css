@@ -1,0 +1,350 @@
+body {
+    font-family: exo, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0;
+    background-color: #b0b0b0;
+    color: black;
+}
+
+/*Header*/
+header {
+    background-color: #e5e4e2;
+    padding: 0.001vw;
+    align-items: flex-end;
+    display: flex;
+    justify-content: center;
+}
+
+header img {
+    padding: 1vw;
+}
+
+header h1 {
+    color: #404040;
+    letter-spacing: 5px;
+    display: flex;
+    justify-content: center;
+}
+header a {
+    text-decoration: none;
+    color: inherit;
+    margin: 0;
+}
+
+/*Main*/
+main {
+    padding: 1rem 2vw;
+}
+
+main h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e6e4e2;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+main h2 {
+    color: #3b6ea8;
+    margin-bottom: 0.2rem;
+    text-decoration: underline;
+    text-align: center;
+}
+
+main p {
+    color: #000000;
+    margin: 0 0 0.3rem 0;
+    text-align: left;
+}
+
+main dl dt {
+    color: #e6e4e2;
+    font-weight: 700;
+    text-decoration: underline;
+    text-align: center;
+}
+table.prices
+{
+    width:100%;
+    border-collapse:collapse;
+    margin:2rem 0 0 0;
+}
+
+table.prices th
+{
+    background-color: #3b6ea8;
+    color:white;
+    padding:.8rem;
+}
+
+table.prices td
+{
+    color: #404040;
+    font-size:18px;
+    font-family: default;
+    padding:.4rem 1vw;
+    text-align: center;
+}
+
+table.prices tr:nth-child(2n)
+{
+    background-color: #e5e4e2; 
+}
+
+table.prices tr:hover
+{
+    background-color: rgba(59, 110, 168, 0.2);
+}
+
+div.audio
+{
+    margin: 1vw;
+    justify-content: center;
+    display: flex;
+}
+main dl dd {
+    color: #000000;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+main ul {
+    list-style-type: square;
+}
+
+main address {
+    font-style: normal;
+    background-color: #e5e4e2;
+    padding: 2rem;
+    width: 20rem;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+
+div.contact-image,
+div.contact-info {
+    margin: 3rem;
+}
+
+main div p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5rem;
+    background-color: #e5e4e2;
+}
+main a {
+    color: #000000;
+}
+
+main a:hover {
+    color: #3b6ea8;
+}
+
+/*Gallery*/
+
+/* display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height:auto;
+    margin: 0;*/
+
+div.photos img {
+    margin:1rem;
+    display:flex;
+    width: 100%;
+    height: auto;
+}
+
+/*    margin: 1.5rem 3% 0 0;
+    width:100%;
+    height:auto;*/
+div.photos figure {
+    width: 100%;
+    margin: 0;
+}
+
+div.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+div.gallery figure {
+    margin: 3rem 2% 0 0;
+}
+div.gallery figcaption {
+    text-align: center;
+    color: #404040;
+    font-size: 1.3rem;
+}
+div.gallery img:hover
+{
+    box-shadow: 0 0 20px #3b6ea8;
+}
+
+div.profile {
+    float: right;
+    margin: 1rem;
+    width: 40%;
+}
+
+div.profile img {
+    height: auto;
+    width: 100%;
+}
+
+div.profile figcaption {
+    text-align: center;
+    font-size: 1rem;
+}
+
+.businessForm fieldset {
+    margin: 2vw;
+    border: solid #e5e4e2 3px;
+}
+
+.businessForm legend {
+    color: black;
+    font-size: 1.3rem;
+}
+.businessForm label {
+    margin: 0.5rem;
+}
+
+.businessForm label,
+.businessForm [type="text"],
+.businessForm [type="tel"],
+.businessForm [type="email"],
+.businessForm textarea,
+.businessForm selector {
+    display: block;
+}
+.businessForm textArea {
+    border:
+        solid,
+        1px #404040;
+    height: 5rem;
+    width: 50vw;
+    font-family: exo, sans-serif;
+    font-weight: 300;
+}
+
+.businessForm [type="text"],
+.businessForm [type="tel"],
+.businessForm [type="email"],
+.businessForm select {
+    border:
+        solid,
+        1px #404040;
+    color: black;
+    padding: 0.3rem;
+    width: 300px;
+    border-radius: 0.3rem;
+    font-family: exo, sans-serif;
+    font-weight: 300;
+}
+
+.businessForm [type="submit"] {
+    background-color: #3b6ea8;
+    border: dotted;
+    padding: 1.2rem 2rem;
+    border-radius: 20px;
+    color: white;
+    margin: 0.3rem 0 0.8vw 2vw;
+}
+
+.myForm :required {
+    background-color: rgba(221, 32, 35, 0.2);
+}
+
+/*Footer*/
+footer {
+    background-color: #b0b0b0;
+    text-align: center;
+    color: #ffffff;
+    padding: 1rem 0;
+    font-size: 0.9rem;
+    text-decoration-line: underline;
+    clear: both;
+}
+
+footer a {
+    color: #024873;
+}
+
+@media only screen and (max-width: 800px) {
+     nav ul
+    {
+        margin:0;
+        padding: 0;
+        list-style-type:none;
+        background-color: #404040;
+    }
+    nav a
+    {
+        display:block;
+        padding: 1rem;
+        text-decoration:none;
+        font-weight: 600;
+        text-transform:uppercase;
+        text-align:center;
+        border-bottom:solid 1vw #404040;
+        color: #e6e4e2;
+    }
+    nav .active a
+    {
+        background-color: #e6e4e2;
+        background-image: linear-gradient(to bottom, #e6e4e2, #b0b0b0);
+        color: #404040; 
+    }
+    
+    nav a:hover {
+        color: #3b6ea8;
+    }
+}
+
+@media only screen and (min-width: 801px) {
+    /*Nav*/
+    nav {
+        background-color: #404040;
+    }
+
+    nav .active a {
+        background-color: #e5e4e2;
+        color: #404040;
+    }
+    nav ul {
+        list-style-type: none;
+        letter-spacing: 3px;
+        padding: 0 3vw;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    nav a {
+        font-size: 1.1rem;
+        text-decoration: none;
+        color: #e6e4e2;
+        font-weight: 800;
+        padding: 0.83rem 3.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    nav a:hover {
+        color: #3b6ea8;
+    }
+}
+header,
+nav,
+main,
+footer {
+    max-width: 90rem; /*for 1440p displays*/
+    margin: 0 auto;
+}
